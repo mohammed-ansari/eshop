@@ -11,7 +11,7 @@ api's created for a ecommerce website (eshop) using springboot framework
 Create a schema with name ``sample_db``
 
 ## Add db credentials
-Add your db username and password in ``src/main/resources/application.properties``
+Add your db username and password in ``application.properties``
 
 ## Build application
 ``./gradlew build``
