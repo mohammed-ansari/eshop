@@ -30,7 +30,7 @@ public class ProductController {
 
     @GetMapping(path = "/search")
     public @ResponseBody
-    Iterable<Product> findByCustomerId(@RequestParam String name) {
+    Iterable<Product> findByName(@RequestParam String name) {
         return productRepository.findByName(name);
     }
 }
